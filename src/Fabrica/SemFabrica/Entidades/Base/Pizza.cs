@@ -8,7 +8,7 @@ namespace SemFabrica.Entidades.Base
   {
     public string Nome { get; set; }
     public abstract void Preparar();
-    public abstract void Assar(ushort minutos);
+    public abstract void Assar();
     public abstract void Embalar();
   }
 }

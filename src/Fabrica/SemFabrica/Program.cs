@@ -38,7 +38,7 @@ namespace SemFabrica
       }
 
       pizza.Preparar();
-      pizza.Assar(10);
+      pizza.Assar();
       pizza.Embalar();
       Console.WriteLine("Pizza concluída com sucesso");
 

@@ -15,6 +15,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - ComFabricaAbstrata", "4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemFabrica", "src\Fabrica\SemFabrica\SemFabrica.csproj", "{B419ABAF-DF88-4A19-886A-7D522936B964}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComFabricaSimples", "src\Fabrica\ComFabricaSimples\ComFabricaSimples.csproj", "{7626B0F8-C20F-4489-ADCC-BB8579E8EBE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{B419ABAF-DF88-4A19-886A-7D522936B964}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B419ABAF-DF88-4A19-886A-7D522936B964}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B419ABAF-DF88-4A19-886A-7D522936B964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7626B0F8-C20F-4489-ADCC-BB8579E8EBE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7626B0F8-C20F-4489-ADCC-BB8579E8EBE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7626B0F8-C20F-4489-ADCC-BB8579E8EBE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7626B0F8-C20F-4489-ADCC-BB8579E8EBE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -35,6 +41,7 @@ Global
 		{F17A438E-05FF-482D-80EF-E2B78689F47A} = {69037B87-8496-4F4B-87A4-BA91923A38BA}
 		{C2B814B1-07CA-40D4-BD90-89EE50DF7F5A} = {69037B87-8496-4F4B-87A4-BA91923A38BA}
 		{B419ABAF-DF88-4A19-886A-7D522936B964} = {D9A97130-6C9D-4D1F-A241-786EE6A19A30}
+		{7626B0F8-C20F-4489-ADCC-BB8579E8EBE6} = {9529F195-1220-4E4E-8E39-BCB6FEE22AFB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {25CF95E2-A3C0-442E-BB99-6C05DA3050BB}

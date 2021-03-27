@@ -12,9 +12,9 @@ namespace SemFabrica.Entidades
       Nome = "Pizza de calabresa";
     }
 
-    public override void Assar(ushort minutos)
+    public override void Assar()
     {
-      Console.WriteLine($"{Nome} assando por {minutos} minutos");
+      Console.WriteLine($"{Nome} assando por 30 minutos");
     }
 
     public override void Embalar()
