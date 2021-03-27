@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fabrica", "Fabrica", "{69037B87-8496-4F4B-87A4-BA91923A38BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - SemFabrica", "1 - SemFabrica", "{D9A97130-6C9D-4D1F-A241-786EE6A19A30}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - ComFabricaSimples", "2 - ComFabricaSimples", "{9529F195-1220-4E4E-8E39-BCB6FEE22AFB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - ComMetodoFabrica", "3 - ComMetodoFabrica", "{F17A438E-05FF-482D-80EF-E2B78689F47A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - ComFabricaAbstrata", "4 - ComFabricaAbstrata", "{C2B814B1-07CA-40D4-BD90-89EE50DF7F5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SemFabrica", "src\Fabrica\SemFabrica\SemFabrica.csproj", "{B419ABAF-DF88-4A19-886A-7D522936B964}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B419ABAF-DF88-4A19-886A-7D522936B964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B419ABAF-DF88-4A19-886A-7D522936B964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B419ABAF-DF88-4A19-886A-7D522936B964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B419ABAF-DF88-4A19-886A-7D522936B964}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D9A97130-6C9D-4D1F-A241-786EE6A19A30} = {69037B87-8496-4F4B-87A4-BA91923A38BA}
+		{9529F195-1220-4E4E-8E39-BCB6FEE22AFB} = {69037B87-8496-4F4B-87A4-BA91923A38BA}
+		{F17A438E-05FF-482D-80EF-E2B78689F47A} = {69037B87-8496-4F4B-87A4-BA91923A38BA}
+		{C2B814B1-07CA-40D4-BD90-89EE50DF7F5A} = {69037B87-8496-4F4B-87A4-BA91923A38BA}
+		{B419ABAF-DF88-4A19-886A-7D522936B964} = {D9A97130-6C9D-4D1F-A241-786EE6A19A30}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {25CF95E2-A3C0-442E-BB99-6C05DA3050BB}
+	EndGlobalSection
+EndGlobal
